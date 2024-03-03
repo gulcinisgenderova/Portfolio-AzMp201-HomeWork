@@ -1,0 +1,21 @@
+Linux komandlari
+1-- 'mkdir' - Make directory. Yeni qovluq yaratmaq üçün istifadə olunan əmrdir. 
+2-- 'cd'- Change directory. Cari qovluğu dəyişmək üçün istifadə edilən əmrdir.
+3-- 'touch' - Create an empty file or update the timestamp of a file. Touch komandası Linux-da fayllar yaratmaq üçün istifadə olunur. Fayl adı əmrdən sonra yazılır.
+4-- 'pwd' - Print working directory. Hansi directory içərisində olduğumuzu göstərir.
+5-- 'ls'- List directory contents. Bu komanda aktiv qovluqdakı bütün fayl və qovluqların siyahısını verir. Bu komandayla aktiv qovluqdakı sənədlər qovluğunun məzmunu göstərilir. Bu komandayla ana qovluğun məzmunu siyahıya alınır. 
+6-- 'rm'-Remove files or directories. Linux-da faylı silmək üçün siz tam sintaksis üçün rm [arqumentlər] faylı üçün fayl adının ardınca "rm" əmrindən istifadə edirsiniz. Bu əmr Linux fayl sisteminizdə faylları və ya qovluqları silmək üçün əsas vasitənizdir. 
+7-- 'cd .. '- Change directory. Geri qayitmaq ucun istifade olunur.
+8-- 'clear'- Linux-da "clear" əmri terminal ekranını təmizləmək üçün istifadə olunur, təmiz və boş ekran təmin edilir. O, heç bir əmr və ya çıxışı silmir, sadəcə olaraq onları terminalın görünən sahəsindən uzaqlaşdırır.
+9-- 'alias'- Linux-da digər əmrlər üçün qısa yollar və ya alternativ adlar yaratmaq üçün `ləqəb` əmrindən istifadə olunur. Bu ləqəblər uzun və mürəkkəb əmrləri sadələşdirmək, şəxsi qısa yollar yaratmaq və ya tez-tez istifadə olunan əmrlər üçün standart seçimləri təmin etmək üçün faydalı ola bilər. 
+10-- '--help'- Linux-da `--help` seçimi əmrin istifadəsi, seçimləri və arqumentlərinin qısa xülasəsini göstərmək üçün müxtəlif əmrlərlə birlikdə istifadə olunur. Müəyyən bir əmrdən necə istifadə edəcəyini anlamaq istəyən istifadəçilər üçün sürətli istinad təmin edir.
+11-- 'cp'- Copy files or directories. Linux-da "cp" "kopyala" əmrini ifadə edir. Faylları və qovluqları bir yerdən digərinə köçürmək üçün istifadə olunur.
+12-- 'mv'-  Move or rename files and directories.Linux-da mv əmri faylları və qovluqları köçürmək və ya adlarını dəyişmək üçün istifadə olunur. 
+13-- 'less'- Less əmri Linux-da fayl məzmununa baxmaq və naviqasiya etmək üçün güclü vasitədir. Tez müxtəlif bölmələrə keçməli olduğunuz böyük fayllarla işləyərkən çox faydalıdır.
+14-- 'date'- Linux-da tarix əmri sistemin tarixini və vaxtını göstərmək və ya təyin etmək üçün istifadə olunur.
+15-- 'whoami'- Linux-da whoami əmri cari effektiv istifadəçinin istifadəçi adını çap edən sadə bir yardım proqramıdır. Bu əmri işlətdiyiniz zaman o, hazırda daxil olan istifadəçi ilə əlaqəli istifadəçi adını göstərir.
+16-- 'cmp'- Linux-da cmp əmri iki faylı bayt-bayt müqayisə etmək üçün istifadə olunur. O, iki faylın məzmunu arasındakı fərqləri yoxlayır və qarşılaşdığı ilk uyğunsuzluğu bildirir. Heç bir fərq tapılmazsa, heç bir nəticə vermir.
+17-- 'ps'- Linux-da ps əmri sistemdə hazırda işləyən proseslər haqqında məlumatı göstərmək üçün istifadə olunur. O, əmrin yerinə yetirildiyi anda sistemdə işləyən proseslərin şəklini təqdim edir.
+18-- 'ifconfig'- Linux-da ifconfig əmri sistemdəki şəbəkə interfeysləri haqqında məlumatı konfiqurasiya etmək və göstərmək üçün istifadə olunur.
+19-- 'df'- Linux-da df əmri quraşdırılmış fayl sistemlərində disk sahəsinin istifadəsi haqqında məlumatı göstərmək üçün istifadə olunur. Bu, hər bir quraşdırılmış bölmə üçün ümumi yer, istifadə olunan yer, mövcud yer və fayl sisteminin növü haqqında təfərrüatları təmin edir.
+20-- 'zip'- Linux-da zip əmri faylları sıxışdırmaq və ZIP formatında sıxılmış arxiv yaratmaq üçün istifadə olunur. Bu əmr tez-tez fayl və qovluqların ölçüsünü azaltmaq üçün istifadə olunur, bu da onları köçürməyi və ya saxlamağı asanlaşdırır.
