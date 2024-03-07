@@ -1,0 +1,107 @@
+/* 6. Fontun olcusunu deyisir. */
+.gulcin{
+  /* 20.Yazinin rengini deyisir: . */
+    color: darkgreen;
+    font-size: large;
+    /* 18. Bu paragrafdaki herfler arasinde 10 px mesafe qoy */
+    letter-spacing: 10px;
+  /* 21. Reqemin styleni deyisir */
+    font-variant-numeric: oldstyle-nums;
+}
+/* 1. Formani doldurduqdan sonra buttonun rengini deyisdirir. */
+form :active {
+    color: red;
+  }
+  
+  /* 2. Buttonun background rengini deyisdirir */
+  form button {
+    background: white;
+  }
+ /* 3. Linkin rengini ve borderin rengini deyismek */
+  a:any-link {
+    border: 1px solid hotpink;
+    color: rgba(250, 37, 73, 0.39);
+  }
+  /* 4. Inputun borderini rengleyir */
+  input {
+    border: 3px solid purple;
+    border-radius: 3px;
+  }
+  
+  input:-webkit-autofill {
+    border: 3px solid blue;
+  }
+  input:autofill {
+    border: 3px solid blue;
+  }
+  /* 5. Default olarag secdiyimiz variantin borderini rengleyir */
+input:default {
+  box-shadow: 0 0 2px 1px coral;
+}
+
+input:default + label {
+  color: coral;
+}
+/* 7. Fontun styleni deyisir */
+.gulc{
+    font-style: italic;
+}
+/* 8. Centera aparir yazini*/ 
+gulc {
+    text-align: center;
+}
+/* 9. Arxa fon rengini deyisir */
+.spans{
+    background-color: darksalmon;
+}
+/* 10. Table'n headinin rengini deyisir */
+.tablehead{
+    background-color: blueviolet;
+}
+/* 11. Table'n collapse deyisir. */
+.table{
+    border-collapse: collapse;
+  /* 12. Table'n styleni deyisir. */
+    border-style: dotted;
+    /* 13. Table'n kenarlarinin borderinin uzunlugunu deyisir. */
+    border-width: 5px
+    
+
+
+}
+. buto{
+    bottom;
+}
+.ca any-link {
+    height: 100px;
+    width: 100px;
+    color: brown;
+    box-sizing: inherit;
+}
+
+.box{
+   /* 15. Box eni */ width: 100px;
+      /* 16. Box hundurluyu */height: 100px;
+    /* 17. Box arxafonu */ background-color: blueviolet;
+
+}
+/* 19.  */
+
+input:checked
+ /* 21. Sekili cerciveye salir */
+
+.sekil{
+    border-style: inherit;
+}
+/* 22. harda p elementi gorduse o cumleden sonra nese yazir. yazilan sozu de sen teyin edirsen. */
+p::after
+/* 23. paragfrafin birinci herfini secerek uzerinde isleyir */
+p:: ::first-letter{
+    /* 24. Sola cekir */
+    float: left;
+   
+}
+/* 25. Paragrafin birinci lineni secir */
+p::first-line{
+    
+}
