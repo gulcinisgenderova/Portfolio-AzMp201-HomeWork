@@ -1,0 +1,291 @@
+*{
+    margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.link{
+    display: inline-block;
+   
+}
+.esas{
+    background-color: #2c3e50;
+  color: white;
+  
+    
+}
+.container{
+    /* display: flex;
+   
+    align-items: center; */
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    align-items: center;
+    height: 104px;
+    
+}
+.logo{
+    display: inline-block;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aa{
+    color: white;
+    margin: 0px 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.adam{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
+.bolme{
+   height: 90vh;
+    background-color: #1abc9c;
+}
+.esasdi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 540px;
+}
+.soz{
+    font-size: 2.75rem;
+    line-height: 2.75rem;
+    color: white;
+    margin-top: 30px;
+    
+}
+.starline{
+    display: inline-block;
+    width: 100px;
+    border: 2px solid white;
+    margin-bottom: 13px;
+  
+}
+.star{
+    margin-top: 25px;
+}
+.text{
+    color: white;
+    margin-top: 20px;
+    font-size: 1.25rem;
+}
+.containerportfolio{
+    display: inline-block;
+    text-align: center;
+}
+.port{
+    font-size: 2.25rem;
+    line-height: 2rem;
+    color: #2c3e50;
+    margin-top: 80px;
+   
+}
+.bolme2{
+    /* height: 150vh; */
+
+    text-align: center;
+    Width 1320px
+Height 757.75px
+Top 878.53px
+Left 52.5px
+}
+.starline2{
+    display: inline-block;
+    width: 100px;
+    border: 2px solid  #2c3e50;;
+    margin-bottom: 13px;
+}
+.star2{
+    margin-top: 25px;
+}
+.starbox2{
+    display: inline-block;
+}
+.images{
+    width: 1320px
+    height: 686px
+top: 2408.28px
+left: 52.5px
+
+}
+.about {
+    width: 1320px;
+    background-color: #1abc9c;
+    text-align: center;
+    padding: 100px;
+  }
+  .starBox3 {
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 28px;
+  }
+  .starLine3 {
+    width: 112px;
+    border: 1px solid white;
+  }
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+  }
+  .aboutheader {
+    background-color: #1abc9c;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutp1 {
+    width: 540px;
+    height: 136px;
+  }
+  .aboutp2 {
+    width: 500px;
+    height: 80px;
+  }
+  button {
+    width: 200px;
+    height: 50px;
+    background-color: #1abc9c;
+    border: 1px solid white;
+    margin-top: 28px;
+    border-radius: 9px;
+    margin-left: 430px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  .text{
+    font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+  justify-content: center;
+  }
+  .haqqinda{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 48px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0px;
+text-align: left;
+color: white;
+margin-top: 30px;
+
+  }
+  .didi{
+    text-align: center;
+    width: 100%;
+   
+    display: inline-block;
+  }
+  .inputclass{
+    border-bottom: 1px solid black;
+    width: 100%;
+  }
+  input{
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+  .formdiv{ 
+    width: 100%;
+    
+    margin-top: 20px;
+
+  }
+ .form{
+    display: block;
+    margin-top: 0em;
+ }
+  
+footer{
+    box-sizing: border-box;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+ background-color:  #2C3E50;
+    height: 40vh;
+}
+.containerfooter{
+    display: flex;
+    justify-content: space-between;
+}
+.divson{
+    margin-top: 50px;
+}  
+.div2{
+    width: 440px;
+    height: 112px;
+    margin-left: 90px;
+    margin-top: 100px;
+}
+.web{ 
+    width: 440px;
+    height: 112px;
+    margin-left: 90px;
+    margin-top: 100px;
+}
+.freelancer{
+    width: 440px;
+    height: 112px;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+h4{
+    font-size: 24px;
+}
+.pad{
+    font-size: 20px;
+    width: ;
+}
+.fa-brands{
+    color: white;
+   
+    size: 50px;
+    border-radius: 100px;
+}
+.fa-solid{
+    color: white;
+    size: 50px;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    
+    border-radius: 100px;
+}
+.fa-facebook{
+    color: white;
+    size: 20px;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    
+    border-radius: 100px;
+}
+.fa-twitter{
+    color: white;
+    size: 20px;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    
+    border-radius: 100px;
+}
+.fa-linked-in{
+    color: white;
+    size: 20px;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    
+    border-radius: 100px;
+}
+
