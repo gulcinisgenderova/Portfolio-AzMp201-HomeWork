@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* Fontu deyisende scroll yaranirdi */
+}
+body{
+    background-color: black;
+     
+}
+.container{
+    color: white;
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: inline-block;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    color: orangered;
+ 
+}
+.text{
+    display: inline-block;
+    position: relative;
+    top: 20px;
+}
+.second{
+  
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 300px;
+}
+.service{
+    display: inline-block;
+ position: relative;
+ left: 20px;
+}
+.about{
+    display: inline-block;
+ position: relative;
+ left: 40px;
+}
+.cashback{
+    display: inline-block;
+    position: relative;
+    left: 60px;
+}
+.tarif{
+    display: inline-block;
+    position: relative;
+    left: 80px;
+}
+.human{
+    display: inline-block;
+ position: relative;
+ left: 100px;
+}
+.contact{
+    display: inline-block;
+    position: relative;
+    left: 120px;
+}
+
+p{
+    display: inline-block;
+}
+.box{
+    text-align: center;
+    border-radius: 5%;
+    color: white;
+    display: inline-block;
+    width: 180px;
+    height: 30px;
+    background-color: #292929;
+}
+.light{
+    text-align: center;
+    padding: 3px;
+    color: white;
+    display: inline-block;
+    position: relative;
+    left: 40px;
+    width: 30px;
+    height: 30px;
+    border-radius: 10%;
+    background-color: #292929;
+}
+.aze{
+    color: white;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 10%;
+    background-color: #292929;
+    position: relative;
+    left: 60px;
+   bottom: 4px;
+}
+.rus{
+    color: white;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 10%;
+    position: relative;
+    left: 80px;
+    bottom: 4px;
+    background-color: #292929;
+}
+.search{
+    color: white;
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    width: 30px;
+    height: 30px;
+    border-radius: 10%;
+    bottom: 4px;
+    background-color: #292929;
+    text-align: center;
+}
+.private{
+    top: 40px;
+    display: inline-block;
+}
+.corporale{
+    gap: 20px;
+    display: inline-block;
+}
+.logo{
+    display: inline-block;
+}
+.three{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    /* display: inline-block;
+ */
+}
+.cards{
+    position: relative;
+    left: 40px;
+    display: inline-block;
+}
+.loans{
+    position: relative;
+    left: 80px;
+    display: inline-block;
+}
+.savings{
+    position: relative;
+    left: 120px;
+    display: inline-block;
+}
+.transfer{ position: relative;
+    left: 160px;
+    display: inline-block;
+}
+.online{
+    position: relative;
+    left: 200px;
+    display: inline-block;
+}
+.other{
+    position: relative;
+    left: 240px;
+    display: inline-block;
+}
+.icons{
+    position: relative;
+    left: 600px;
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 40%;
+    color: orangered;
+    text-align: center;
+    padding: 10px;
+}
+.onlineservise{
+    color: white;
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    display: inline-block;
+
+}
+.onlayn{
+    font-weight: bolds;
+    position: relative;
+    display: inline-block;
+left: 40px;
+}
+.kart{
+    display: inline-block;
+    color: white;
+    text-align: center;
+ width: 400px;
+ height:300px;
+ background-color: #292929;
+ border-radius: 5%;
+ margin-top: 60px;
+}
+.tablet{
+   padding: 40px;
+   font-size: 64px;
+color: orangered;
+}
+.karts{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pi{
+    font-weight: bold;
+    margin-top: 15px;
+}
+.pir{
+    margin-top: 15px;
+}
+.karto{
+    display: inline-block;
+    color: white;
+    text-align: center;
+ width: 400px;
+ height:300px;
+
+ border-radius: 5%;
+ margin-top: 60px; 
+}
