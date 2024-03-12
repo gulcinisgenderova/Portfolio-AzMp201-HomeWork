@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    background-color: pink;
+    border: 2px solid green;
+    position: relative;
+}
+.box1{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.box2{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    z-index: 1;
+}
+.box3{
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+.box4{
+    position: absolute;
+  bottom: 40px;
+    right: 120px;
+    width: 100px;
+    height: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.box5{
+  /* left: 500px;
+bottom: 1000px; */
+    left: 600px;
+    position: sticky;
+top: 0px;
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+}
+.box6{
+    position: fixed;
+    /* position: absolute; */
+    right: 0px;
+    bottom: 60px;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+body{
+    height: 500vh;
+}
