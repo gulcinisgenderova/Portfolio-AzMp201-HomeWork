@@ -1,0 +1,142 @@
+.marka {
+    background: #000000;
+
+    .brands {
+        max-width: 1510px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 20px;
+        padding: 20px;
+    }
+}
+
+.brandresponsive {
+    display: none;
+}
+
+@media only screen and (max-width: 992px) {
+    .marka {
+        display: none;
+    }
+
+    .brandresponsive {
+        background-color: #000000;
+        display: block;
+        padding: 20px;
+        text-align: center;
+
+        .bottom {
+            padding-left: 20px;
+            margin-top: 20px;
+        }
+
+        .logobrand {
+            margin-left: 20px;
+        }
+    }
+}
+
+#cloth {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.clothes {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .tshirt {
+        background-color: #F0EEED;
+        width: 295px;
+        height: 298px;
+        top: 1104px;
+        left: 100px;
+        gap: 0px;
+        border-radius: 20px;
+        opacity: 0px;
+
+    }
+
+}
+
+.cards {
+    text-align: left;
+
+    p {
+        font-family: "Satoshi";
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 27px;
+        text-align: left;
+
+    }
+
+    .bolds {
+        color: gray;
+    }
+}
+
+.pink {
+    width: Fixed (58px)px;
+    height: Hug (28px)px;
+    padding: 6px 14px 6px 14px;
+    gap: 12px;
+    border-radius: 62px 0px 0px 0px;
+    opacity: 0px;
+
+}
+.cardresponsive{
+    display: none;
+}
+@media only screen and (max-width: 992px) {
+    #cloth{
+        display: none;
+    }
+  #allcard{
+    text-align: center;
+    .cardresponsive{
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        justify-content: center;
+        .view{
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        p{
+            text-align: center;
+        }
+        .logoresponsive{
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+    }
+
+  }
+}
+#topsaller{
+    .topSaller{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        .sallerlogo{
+            text-align: center;
+            grid-column-start: 1;
+            grid-column-end: span 4;
+        }
+    }
+}
+@media only screen and (max-width: 992px) {
+  #topsaller{
+    .topSaller{
+        display: grid;
+        grid-template-columns: auto ;
+    }
+  }
+}

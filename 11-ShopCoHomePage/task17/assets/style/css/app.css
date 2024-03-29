@@ -1,0 +1,234 @@
+.nav {
+  background-color: #000000;
+}
+.nav .container {
+  color: white;
+}
+.nav .container .sutun {
+  text-align: center;
+}
+.nav .container a {
+  color: white;
+}
+
+.navbarresponsiv {
+  display: none;
+}
+
+.navbar {
+  max-width: 1510px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+}
+.navbar .sign {
+  display: flex;
+  gap: 20px;
+}
+.navbar .search {
+  width: 577px;
+  height: 48px;
+  padding: 12px 16px 12px 16px;
+  gap: 12px;
+  border-radius: 62px;
+  opacity: 0px;
+  background: #F0F0F0;
+  text-align: left;
+}
+.navbar .search input {
+  border: none;
+  width: 151px;
+  height: 22px;
+  gap: 0px;
+  opacity: 0px;
+  background: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar {
+    display: none;
+  }
+  .navbarresponsiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .navbarresponsiv .left {
+    gap: 9px;
+  }
+  .navbarresponsiv .right {
+    gap: 9px;
+  }
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+#header {
+  font-family: "Satoshi";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+}
+#header a {
+  font-family: "Satoshi";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  text-decoration: none;
+  color: #000000;
+}
+#header input {
+  font-family: "Satoshi";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#allcard .cardresponsive h1 {
+  font-family: "Integral CF";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  text-align: center;
+  color: #000000;
+}
+
+.marka {
+  background: #000000;
+}
+.marka .brands {
+  max-width: 1510px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 20px;
+}
+
+.brandresponsive {
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .marka {
+    display: none;
+  }
+  .brandresponsive {
+    background-color: #000000;
+    display: block;
+    padding: 20px;
+    text-align: center;
+  }
+  .brandresponsive .bottom {
+    padding-left: 20px;
+    margin-top: 20px;
+  }
+  .brandresponsive .logobrand {
+    margin-left: 20px;
+  }
+}
+#cloth {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.clothes {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clothes .tshirt {
+  background-color: #F0EEED;
+  width: 295px;
+  height: 298px;
+  top: 1104px;
+  left: 100px;
+  gap: 0px;
+  border-radius: 20px;
+  opacity: 0px;
+}
+
+.cards {
+  text-align: left;
+}
+.cards p {
+  font-family: "Satoshi";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+}
+.cards .bolds {
+  color: gray;
+}
+
+.pink {
+  width: Fixed 58px px;
+  height: Hug 28px px;
+  padding: 6px 14px 6px 14px;
+  gap: 12px;
+  border-radius: 62px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.cardresponsive {
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+  #cloth {
+    display: none;
+  }
+  #allcard {
+    text-align: center;
+  }
+  #allcard .cardresponsive {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+  }
+  #allcard .cardresponsive .view {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  #allcard .cardresponsive p {
+    text-align: center;
+  }
+  #allcard .cardresponsive .logoresponsive {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}
+#topsaller .topSaller {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+#topsaller .topSaller .sallerlogo {
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: span 4;
+}
+
+@media only screen and (max-width: 992px) {
+  #topsaller .topSaller {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}/*# sourceMappingURL=app.css.map */
