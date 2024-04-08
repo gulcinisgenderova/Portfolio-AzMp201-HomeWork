@@ -426,30 +426,194 @@ let students=[
 // let reversedStudentNames = reverseNames(students);
 // console.log(reversedStudentNames);
 
+
+// 1  Butun elementleri konsola yazin
+
+// let cap= (elem)=>{
+//   return elem;
+// }
+//  console.log(cap(students));
+
+
+// - Bütün tələbələrin adlarını konsola yazın - ad: Qurban
+
+// function names(array) {
+//   for (let i = 0; i < array.length; i++) {
+//    console.log("Name:",array[i].name);
+    
+//   }
+// } names(students)
+
+
+// - Bütün tələbələrin adlarını və soyadlarını konsola yazın - ad: Qurban, soyad: Qurbanzada
+
+// function namesBox(array) {
+//   for (let i = 0; i < array.length; i++) {
+//     const element = array[i];
+//     console.log("Name:", element.name,"Surname:", element.surname);
+    
+//   }
+// } namesBox(students)
+
+// - Kəsri olan tələbələrin ad və soyadını çapa verin
+
+// function kesr(array) {
+//   for (let i = 0; i < array.length; i++) {
+//     const element = array[i];
+//     if (element.fail== true) {
+//       console.log("Kesri olan Telebelerin ad ve soyadlari:",element.name, element.surname);
+//     }
+    
+//   }
+// }kesr(students)
+
+ // - Ən çox hobbisi olan tələbənin ad və hobbilərini çapa verin
+// let maxHobbi=0;
+// let maxHobbiesStudent
+
+// function hobbiesBox(array) {
+//   for (let i = 0; i < array.length; i++) {
+//     const student = array[i];
+//     let hobisiuzunolan=student.hobbies.length
+//     if (hobisiuzunolan>maxHobbi) {
+//       maxHobbiesStudent=student
+//     }
+//   } console.log("En cox hobbisi olan telebenin adi :",maxHobbiesStudent.name, "- hobbileri:",maxHobbiesStudent.hobbies.join(" "));
+// }hobbiesBox(students)
+
+// --------------------------------
+
 // 1. Write a JavaScript function to get the first element of an array. Passing a parameter 'n' will return the first 'n' elements of the array.
 // (Array method-lardan istifadə edin)
-// Example:
-// console.log(getFirst([1, 73, 99, 20])) -> 1
-// console.log(getFirst([1, 73, 99, 20], 2)) -> [1, 73]
-// console.log(getFirst([1, 73, 99, 20], 0)) -> []
-// console.log(getFirst([1, 73, 99, 20], 4)) -> [1, 73, 99, 20]
 
-// function getFirst(arr, n) {
-//   if (n === undefined || n === 0) {
-//       return [];
-//   }
-
-//   return arr.slice(0, n);
+let ars=[1,2,3,5,8,3,3,2,4]
+// function getFirstElements(array, n = 1) {
+//   return array.slice(0, 2); 
 // }
-
-// let ars= [8, 73, 99, 20]
-// console.log(getFirst(ars,1));
+// console.log(getFirstElements(ars));
 
 
 // 2. Write a simple JavaScript function to join all elements of the following array into a string.
-function join(arr, gull) {
-    return arr.join(gull);
-}
-console.log(join([1, 73, 99, 20], "*"));
+
+// function add(array) {
+//   return array
+// }console.log(add(ars.join("*")));
 
 
+
+// 3. Write a JavaScript program(function) that accepts a string as input and swaps the case of each character. For example, if you input 'The Quick Brown Fox' the output should be 'tHE qUICK bROWN fOX'
+// let ad= "SaLam NeceseN"
+// let arr = ad.split("");
+// let result ;
+// result= arr.map(elem=>{
+//    if (elem==elem.toLocaleUpperCase) {
+//     return elem.toLocaleUpperCase()
+//    }
+//    else{
+//     return elem.toLocaleUpperCase()
+//    }
+// } ) .join("")
+// console.log(result);
+
+
+
+// 4. Write a method that clears the array from all unnecessary elements, like false, undefined, empty strings, zero, null.
+
+// let arrayy= [ 1,false, "Gulchin", null,77, 0]
+
+// function filterr(arrayy) {
+//  for (let i = 0; i < arrayy.length; i++) {
+//  if (arrayy[i]!== false && arrayy[i]!== true && arrayy[i]!== 0 && arrayy[i]!==null) {
+//  console.log(arrayy[i]);
+//  }
+  
+//  }
+//   return arrayy
+// } console.log(filterr(arrayy));
+
+// function clearArray(array) {
+//   const filteredArray = array.filter(item => {
+//     return item !== false && item !== undefined  && item !== 0 && item !== null;
+//   });
+
+//   return filteredArray;
+// }
+
+// const mixedArray = [1, false, 'gulchin', undefined,  0, null, 42];
+
+// const clearedArray = clearArray(mixedArray);
+// console.log(clearedArray);
+
+
+// 5. Write a method that returns a duplicate-free array.
+
+// let count= []
+// let result
+// let sum=[]
+// function reepid(array) {
+//  for (let i = 0; i < ars.length-1; i++) {
+// // console.log(array[i]);
+// count++
+// // console.log(count);
+// if (array[i]!== count[i]) {
+// result++
+//   console.log(sum.push(result));
+ 
+// }
+  
+//  }
+
+//   return array 
+// }console.log(reepid(ars));
+
+// function createUniqueArray(array) {
+// let uniqueArray = array.filter((item, index) => {
+//     return array.indexOf(item) === index;
+//   });
+
+//   return uniqueArray;
+// }
+// const arrayWithDuplicates = [1, 2, 2, 3, 4, 4, 5, 5, 5];
+// const uniqueArray = createUniqueArray(arrayWithDuplicates);
+// console.log(uniqueArray); 
+
+
+
+// 6. Write a function that compares two arrays and returns true if they are identical.
+
+// function arraysAreIdentical(arr1, arr2) {
+//   if (arr1.length !== arr2.length) {
+//     return false;
+//   }
+
+//   return arr1.every((element, index) => {
+//     return element === arr2[index];
+//   });
+// }
+
+// const array1 = [1, 2, 3];
+// const array2 = [1, 2, 3];
+// const array3 = [1, 2, 4];
+
+// console.log(arraysAreIdentical(array1, array2)); 
+// console.log(arraysAreIdentical(array1, array3)); 
+
+
+11 
+// # webTechs arrayında olan elementlərin uzunluğu 4'dən böyük olanları yeni bir arraya yığın
+ const webTechs = [
+  "HTML",
+  "CSS",
+  "JS",
+  "React",
+  "JS",
+  "Redux",
+  "Node",
+  "JS",
+  "MongDB",
+];
+
+let deyisen= webTechs.filter((arr=>{
+   return arr.length >4
+}))
+console.log(deyisen);
