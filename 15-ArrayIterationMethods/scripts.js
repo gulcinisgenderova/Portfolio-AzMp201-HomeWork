@@ -601,19 +601,19 @@ let ars=[1,2,3,5,8,3,3,2,4]
 
 11 
 // # webTechs arrayında olan elementlərin uzunluğu 4'dən böyük olanları yeni bir arraya yığın
- const webTechs = [
-  "HTML",
-  "CSS",
-  "JS",
-  "React",
-  "JS",
-  "Redux",
-  "Node",
-  "JS",
-  "MongDB",
-];
+//  const webTechs = [
+//   "HTML",
+//   "CSS",
+//   "JS",
+//   "React",
+//   "JS",
+//   "Redux",
+//   "Node",
+//   "JS",
+//   "MongDB",
+// ];
 
-let deyisen= webTechs.filter((arr=>{
-   return arr.length >4
-}))
-console.log(deyisen);
+// let deyisen= webTechs.filter((arr=>{
+//    return arr.length >4
+// }))
+// console.log(deyisen);
