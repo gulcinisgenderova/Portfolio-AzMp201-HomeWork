@@ -1,0 +1,84 @@
+.nav{
+    background-color: black;
+    color: white;
+    padding: 4px ;
+    .sign {
+        font-weight: 500;
+        text-decoration: solid white;
+        color: white;
+        text-align: center;
+    }
+}
+.navbar{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+gap: 40px;
+border-bottom: 2px solid whitesmoke;
+a{
+    text-decoration: none;
+    color: black;
+}
+.signs{
+    display: flex;
+    gap: 20px;
+}
+  .search{
+    width: 500px;
+height: 48px;
+padding: 12px 16px 12px 16px;
+gap: 12px;
+border-radius: 62px;
+opacity: 0px;
+background: #F0F0F0;
+text-align: left;
+input{
+    border: none;
+    width: 400px;
+    height: 22px;
+    border:#F0F0F0;
+   text-decoration: none; 
+   background: #F0F0F0;
+
+}
+  }
+
+}
+.homeCart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;
+    padding-top: 20px;
+    gap: 10px;
+    .home{
+        color: gray;
+    }
+  }
+
+  .yours{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  padding-top: 25px;
+  padding-right: 119px;
+    
+  }
+  @media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Küçük ekranlarda dikey düzen */
+        align-items: stretch; /* Öğeleri yatayda uzat */
+        text-align: center;
+    }
+
+    .search {
+        width: 100%; /* Arama kutusunu genişlet */
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px; /* Mobil cihazlarda alt boşluk ekle */
+    }
+}

@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sectionsStart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.start {
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.6;
+    color: rgb(94, 121, 151);
+}
+
+.start h2 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;
+    font-size: 3.157em;
+    line-height: 1.143;
+    color: rgb(36, 46, 66);
+}
+
+.project {
+    color: rgba(255, 105, 0, 1);
+}
+
+.grid-container {
+    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 20px; */
+    padding: 20px;
+}
+
+
+
+.textpre {
+    white-space: pre-line;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.displays {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containers {
+    width: 400px;
+}
+
+.faq .head {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: black;
+    cursor: pointer;
+}
+
+.faq .info {
+    transition: all 0.5s;
+    color: rgb(36, 46, 66);
+    border-bottom: 3px solid rgba(245, 245, 245, 0.507);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    overflow: hidden;
+    height: 0;
+}
+
+.faq.active .info {
+    height: 150px;
+}
