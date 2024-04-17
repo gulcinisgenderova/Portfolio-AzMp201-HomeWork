@@ -1,0 +1,56 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.home {
+  text-align: center;
+  padding: 20px;
+}
+
+.basket {
+  text-align: center;
+  padding: 20px;
+}
+
+.homePage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.item {
+  width: 200px;
+  height: 250px;
+  margin-bottom: 20px;
+  padding: 10px;
+  padding-top: 25px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  margin-top: 10px;
+
+}
+
+img {
+  width: 50px;
+}
+
+button {
+  margin: 10px;
+  border: none;
+  font-size: 25px;
+  background-color: white;
+
+}
+
+.basketButton {
+  color: orange;
+}
+
+.favButton {
+  color: red;
+}
