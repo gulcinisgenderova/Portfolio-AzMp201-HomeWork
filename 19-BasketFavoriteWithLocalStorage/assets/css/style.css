@@ -1,0 +1,65 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+.center {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   background-color: #ff8c00; 
+    background-image: linear-gradient(120deg, #ff8c00, #ffd700);    text-align: center;
+}
+
+
+
+.login-container {
+    background-color: wheat;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.logForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.logForm input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.logForm button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color:#333 ;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.logForm button:hover {
+    background-color: #ff8c00;
+}

@@ -58,11 +58,10 @@ function addToBasket(api) {
 
             item.className = "item";
             prodTitle.textContent = api.title;
-            prodPrice.textContent = `Price: $${api.price}`;
+            prodPrice.textContent = `Price: ${api.price}`;
 
             item.append(prodTitle, prodPrice);
             basketPage.appendChild(item);
-            console.log(api.id);
         });
     }
 
