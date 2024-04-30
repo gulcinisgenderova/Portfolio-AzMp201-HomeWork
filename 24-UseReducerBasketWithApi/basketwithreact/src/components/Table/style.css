@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.sortBtns{
+    margin: 0 10px;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.deleteAll{
+    margin: 20px;
+}
