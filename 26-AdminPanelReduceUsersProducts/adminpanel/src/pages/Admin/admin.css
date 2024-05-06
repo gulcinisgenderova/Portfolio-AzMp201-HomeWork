@@ -1,0 +1,85 @@
+
+.shekil{
+  width: 60px;
+  height: 60px;
+}
+.admin-container {
+  margin: 20px;
+  color: #fff; 
+  background-color: rgb(31 41 55); 
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-table th,
+.product-table td {
+  border: 1px solid #555; 
+  padding: 8px;
+  text-align: left;
+}
+
+.product-table th {
+  background-color: rgb(14, 22, 34); 
+}
+
+.product-table tr:nth-child(even) {
+  background-color: rgb(48, 56, 68);
+}
+
+.product-table tr:hover {
+  background-color: #555; 
+}
+.searchBox{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px; 
+}
+.buttons{
+  display: flex;
+  gap: 10px;
+}
+.delete-button {
+  background-color: #b30000;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+
+}
+
+.delete-button:hover {
+  background-color: darkred;
+}
+
+.edit-button {
+  background-color: #cca300;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.edit-button:hover {
+  background-color: #ffd700; 
+}
+
+
+.searchBox input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+  color: rgb(14, 22, 34);
+}
+.searchBox button {
+  padding: 3px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100px;
+}
