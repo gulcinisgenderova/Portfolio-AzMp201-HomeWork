@@ -1,0 +1,69 @@
+.new-product-form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+}
+.new-product-form input[type="number"]::-webkit-inner-spin-button,
+.new-product-form input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.new-product-form h2 {
+  margin-bottom: 20px;
+}
+
+.new-product-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.new-product-form input[type="text"],
+.new-product-form input[type="date"],
+
+.new-product-form input[type="number"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #555;
+  border-radius: 3px;
+  background-color: #444;
+  color: #fff;
+}
+select {
+  appearance: none;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+.new-product-form button[type="submit"] {
+  background-color: rgb(31 41 55);
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+.new-product-form button[type="submit"]:hover {
+  background-color: rgb(13, 19, 27);
+
+}
+.darks {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #555;
+  border-radius: 3px;
+  background-color: #444;
+  color: #fff;
+}
