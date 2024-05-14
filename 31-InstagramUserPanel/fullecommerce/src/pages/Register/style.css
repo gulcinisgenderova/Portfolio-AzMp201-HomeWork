@@ -1,0 +1,55 @@
+/* style.css */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3d9e4;
+  }
+  
+  .register-form {
+    text-align: center;
+    border: 1px solid #db7093;
+    border-radius: 5px;
+    padding: 40px;
+    max-width: 350px;
+    width: 100%;
+    background-color: #f9e8ef;
+    color: #8e3a59;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #db7093;
+    border-radius: 3px;
+    background-color: #fce4ec;
+    color: #8e3a59;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .login-link {
+    margin-top: 20px;
+  }
+  
+  .login-link a {
+    color: #e91e63;
+    text-decoration: none;
+  }
+  

@@ -1,0 +1,68 @@
+/* style.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fce4ec; /* Pembe alt tonlu arka plan */
+  }
+  
+  .login-form {
+    text-align: center;
+    border: 1px solid #f48fb1; /* Pembe alt tonlu sınır */
+    border-radius: 5px;
+    padding: 40px;
+    max-width: 350px;
+    width: 100%;
+    background-color: #fff; /* Beyaz arka plan */
+  }
+  
+  .instagram-logo {
+    width: 175px;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #f48fb1; /* Pembe alt tonlu sınır */
+    border-radius: 3px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #e91e63; /* Pembe alt tonlu arka plan */
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .signup-btn {
+    background-color: transparent;
+    color: #e91e63; /* Pembe alt tonlu yazı rengi */
+    border: none;
+    cursor: pointer;
+  }
+  
+  .separator {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .separator .line {
+    flex: 1;
+    height: 1px;
+    background-color: #f48fb1; /* Pembe alt tonlu çizgi */
+  }
+  
+  .separator .or {
+    padding: 0 10px;
+    text-transform: uppercase;
+    color: #e91e63; /* Pembe alt tonlu yazı rengi */
+  }
+  
